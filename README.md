@@ -1,33 +1,32 @@
-# Language-Translation-using-Transformer
+# Bounding Box Object Detection using CNN
 
 ## Overview
-This project implements **English-to-French Machine Translation** using a **Transformer model**. The model is trained on parallel text datasets to learn accurate translations.
+This project implements an **Object Detector with Bounding Boxes** using a **Convolutional Neural Network (CNN)**. The model is trained to detect objects and predict their bounding box coordinates.
 
 ## Features
-- Uses **Transformer-based architecture** for translation
-- Trained on an **English-French parallel dataset**
-- Implements **tokenization and attention mechanisms**
-- Uses **TensorFlow/Keras** or **Hugging Face Transformers**
+- Uses a **CNN architecture** to detect objects
+- Outputs **bounding box coordinates** for detected objects
+- Trained on a dataset with labeled bounding boxes
+- Uses **TensorFlow/Keras** for deep learning implementation
 
 ## Installation
 ```bash
-pip install transformers torch sentencepiece datasets
+pip install tensorflow numpy matplotlib
 ```
 
 ## Usage
 Run the Jupyter Notebook:
 ```bash
-jupyter notebook Language_Translation.ipynb
+jupyter notebook Bounding_Box.ipynb
 ```
 
 ## Files
-- `Language_Translation.ipynb` - Jupyter Notebook implementing the translation model.
+- `Bounding_Box.ipynb` - Jupyter Notebook containing the CNN model for object detection.
 
 ## Future Enhancements
-- Fine-tune the model on a larger dataset
-- Extend to multi-language translation
-- Deploy as a web API for real-time translation
+- Improve accuracy with data augmentation
+- Implement YOLO-based detection
+- Extend to multi-object detection
 
 ## Author
 Muhammad Dawood Iqbal
-
